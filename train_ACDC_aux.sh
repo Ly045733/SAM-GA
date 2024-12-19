@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=1 python -u train_ACDC_aux.py --fold fold1 --num_classes 4 --root_path /home/cj/code/SAM_Scribble/data/ACDC --exp test/ACDC/three_InterFA_SA_Two_thin_aux_iteration1 --max_iterations 30000 --batch_size 16
+CUDA_VISIBLE_DEVICES=1 python -u train_ACDC_aux.py --fold fold2 --num_classes 4 --root_path /home/cj/code/SAM_Scribble/data/ACDC --exp test/ACDC/three_InterFA_SA_Two_thin_aux_iteration1 --max_iterations 30000 --batch_size 16
+CUDA_VISIBLE_DEVICES=1 python -u train_ACDC_aux.py --fold fold3 --num_classes 4 --root_path /home/cj/code/SAM_Scribble/data/ACDC --exp test/ACDC/three_InterFA_SA_Two_thin_aux_iteration1 --max_iterations 30000 --batch_size 16
+CUDA_VISIBLE_DEVICES=1 python -u train_ACDC_aux.py --fold fold4 --num_classes 4 --root_path /home/cj/code/SAM_Scribble/data/ACDC --exp test/ACDC/three_InterFA_SA_Two_thin_aux_iteration1 --max_iterations 30000 --batch_size 16
+CUDA_VISIBLE_DEVICES=1 python -u train_ACDC_aux.py --fold fold5 --num_classes 4 --root_path /home/cj/code/SAM_Scribble/data/ACDC --exp test/ACDC/three_InterFA_SA_Two_thin_aux_iteration1 --max_iterations 30000 --batch_size 16
